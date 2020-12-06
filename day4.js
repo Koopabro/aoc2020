@@ -21,7 +21,7 @@ const passportValidator = (data) => {
 };
 
 const passportValidatorRules = (data) => {
-	const rulebyr = RegExp("byr:(19[2-9][0-9]|200[12]) ");
+	const rulebyr = RegExp("byr:(19[2-9][0-9]|200[0-2]) ");
 	const ruleiyr = RegExp("iyr:(201[0-9]|2020) ");
 	const ruleeyr = RegExp("eyr:(202[0-9]|2030) ");
 	const rulehgt = RegExp(
